@@ -1,2 +1,2 @@
 # Javascript-first
-practice javasript basic
+practice javasript basic at https://sumaakter123.github.io/Javascript-first/
