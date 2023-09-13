@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Practice</title>
+    <link href=" https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css " rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+ <!--text change-->
+ <div class="container">
+    <h1 class="text-danger">
+        Click the button to change the text</h1>
+        <button class="btn btn-dark" type="button" onclick="textChange()">Text change</button>
+        <h2 id="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, assumenda!</h2>
+
+        <hr>
+
+        <h1 class="text-success"> Click the button to show the date</h1>
+        <button type="button" class="btn btn-dark" onclick="showDate()">Show date</button>
+        <h2 id="dh2">Date</h2>
+
+        <hr>
+
+         <h1 class="text-success"> Click the button to ON/OFF the Bulb</h1>
+         <button onclick="bulbOn()
+         " type="button" class="btn btn-dark"> Bulb on</button>
+         <button onclick="bulbOff()"  type="button" class="btn btn-success"> Bulb off</button>
+         <img id="img" src="imges/on.jpg" alt="">
+
+         <hr>
+         <h1 class="text-primary"> Click the button to change the font-size</h1>
+         <button type="button" class="btn btn-warning" onclick="fontChange()"> Font change</button>
+         <h2 id="f_h2"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, quam.</h2>
+
+         <hr>
+
+        <h1 class="text-aqua"> Click the button to Show/Hide the text </h1>
+        <button onclick="show()" class="btn btn-light" type="button"> Show</button>
+        <button onclick="hide()" class="btn btn-light" type="button"> Hide</button>
+        <h2 id="c_h2"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, culpa.</h2>
+
+        <hr>
+        <h1 class="text-secondary"> Click the button to show the text-document.write</h1>
+        <button class="btn btn-danger" type="button" onclick="writeOutput()">Dwrite</button>
+        
+
+        <hr>
+        
+        <h1 class="text-warning"> Click the button to show the text-window alert</h1>
+        <button class="btn btn-success" type="button" onclick="walert()">WAlert</button>
+        
+        <hr>
+
+
+        <h1>Click the button to show the text-console log</h1>
+        <button class="btn btn-dark" type="button" onclick="clog()">Clog</button>
+
+        <hr>
+
+        <h1 class="text-danger">Click the button to show the var output</h1>
+        <button class="btn btn-dark" type="button" onclick="vOutput()"> Var output</button>
+        <h2 id="v_h2"></h2>
+
+
+        <hr>
+ </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
